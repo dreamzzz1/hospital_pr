@@ -17,5 +17,4 @@ public class MedicalService {
     @ManyToMany(mappedBy = "services")
     private List<Appointment> appointments;
 
-    // Getters and setters
 }

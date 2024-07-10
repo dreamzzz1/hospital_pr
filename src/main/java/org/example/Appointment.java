@@ -37,5 +37,4 @@ public class Appointment {
     )
     private List<MedicalMaterial> materials;
 
-    // Getters and setters
 }
