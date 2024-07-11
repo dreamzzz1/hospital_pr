@@ -1,20 +1,20 @@
-package org.example;
+package essence;
 
 import jakarta.persistence.*;
 
 import java.util.List;
 
 @Entity
-public class MedicalService {
+public class MedicalMaterial {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String name;
     private String description;
-    private double cost;
+    private int quantity;
 
-    @ManyToMany(mappedBy = "services")
+    @ManyToMany(mappedBy = "materials")
     private List<Appointment> appointments;
 
 }

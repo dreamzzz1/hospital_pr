@@ -1,4 +1,4 @@
-package org.example;
+package essence;
 
 import jakarta.persistence.*;
 
@@ -15,7 +15,7 @@ public class Appointment {
 
     @ManyToOne
     @JoinColumn(name = "doctor_id")
-    private doctor doctor;
+    private essence.doctor doctor;
 
     @ManyToOne
     @JoinColumn(name = "patient_id")
