@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ba406cf0-1a33-45b6-be60-949bf2c75d10" name="Changes" comment="new project">
-      <change afterPath="$PROJECT_DIR$/src/main/java/essence/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/essence/AppointmentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/MedicalMaterialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/MedicalServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/PatientRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/essence/Appointment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/essence/Appointment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/essence/MedicalMaterial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/essence/MedicalMaterial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/essence/MedicalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/essence/MedicalService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/essence/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/essence/Patient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/essence/doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/essence/doctor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -50,13 +56,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mora\IdeaProjects\hospital_pr\src\main" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

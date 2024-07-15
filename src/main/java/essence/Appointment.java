@@ -1,8 +1,6 @@
 package essence;
 
 import jakarta.persistence.*;
-
-import java.time.LocalDateTime;
 import java.util.Date;
 import java.util.List;
 
@@ -15,11 +13,11 @@ public class Appointment {
     private Date appointmentDateTime;
 
     @ManyToOne
-    @JoinColumn(name = "doctorId")
-    private essence.doctor doctor;
+    @JoinColumn(name = "doctorId", nullable = false)
+    private doctor doctor;
 
     @ManyToOne
-    @JoinColumn(name = "patientId")
+    @JoinColumn(name = "patientId", nullable = false)
     private Patient patient;
 
     @ManyToMany
@@ -38,12 +36,23 @@ public class Appointment {
     )
     private List<MedicalMaterial> materials;
 
+    @Enumerated(EnumType.STRING)
+    private AppointmentStatus status;
+
     public Long getId() {
         return id;
     }
 
     public void setId(Long id) {
         this.id = id;
+    }
+
+    public Date getAppointmentDateTime() {
+        return appointmentDateTime;
+    }
+
+    public void setAppointmentDateTime(Date appointmentDateTime) {
+        this.appointmentDateTime = appointmentDateTime;
     }
 
     public doctor getDoctor() {
@@ -78,4 +87,11 @@ public class Appointment {
         this.materials = materials;
     }
 
+    public AppointmentStatus getStatus() {
+        return status;
+    }
+
+    public void setStatus(AppointmentStatus status) {
+        this.status = status;
+    }
 }

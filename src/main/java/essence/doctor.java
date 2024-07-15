@@ -20,7 +20,6 @@ public class doctor {
     @ManyToMany(mappedBy = "doctors")
     private List<Patient> patients;
 
-    // Getters and setters
     public Long getId() {
         return id;
     }
